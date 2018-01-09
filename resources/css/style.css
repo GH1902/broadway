@@ -3,19 +3,20 @@ body {
   text-align: center;
 }
 
+h1, h2, h3 {
+  font-weight: bold;
+}
+
 h1 {
   font-size: 70px;
-  font-weight: bold;
 }
 
 h2 {
   font-size: 32px;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 23px;
-  font-weight: bold;
 }
 
 p {
@@ -25,18 +26,21 @@ p {
 .background {
   color: white;
   background-image: url(../images/the-flatiron-building.png);
+  background-size: cover;
 }
 
 .nav {
   color: white;
   font-size: 18px;
-}
-
-.footer {
-  background-color: dimgray;
+  font-weight: bold;
 }
 
 .copyright {
   color: white;
   font-size: 11px;
+}
+
+.footer {
+  background-color: dimgray;
+  text-align: left;
 }
